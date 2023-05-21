@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+c = int(a * (b % 10))
+d = int(a * (((b % 100) - (b % 10))/10))
+e = int(a * ((b - (b % 100))/100))
+f = int(c + d*10 + e*100)
+print(c,d,e,f)
